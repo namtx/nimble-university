@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../bin', __FILE__)
+
+require 'high_card'
+
+HighCard::CLI.run(*ARGS)
